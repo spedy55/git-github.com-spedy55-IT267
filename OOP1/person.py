@@ -16,6 +16,9 @@ class Person:
     
     def show(self):
         print(f'Name : {self.name}\nGender : {self.gender}\nProfession : {self.profession}\nStudy : {self.hour}')
+        
+    def __del__(self):
+        print(f'Object was destroy')
 
 jessa = Person("Jessa","Female","Software Engineer","10")
 jessa.show()
