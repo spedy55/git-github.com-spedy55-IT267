@@ -26,7 +26,7 @@ mike.goto(-160,10)
 mike.pendown()
 
 for move in range(100):
-    leo.forward(randint(1,5))
+    leo.forward(randint(1,2))
     dona.forward(randint(1,5))
     raph.forward(randint(1,5))
     mike.forward(randint(1,5))
