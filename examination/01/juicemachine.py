@@ -23,7 +23,7 @@ class JuiceOrder:
     def display_order(self):
         self.check_menu()
         self.compute_price()
-        return f'{self.menu} ({self.size} * {self.price}) => {self.price}'
+        return f'{self.menu} ({self.size} * {self.price}) => {self.price} baht'
 
 if __name__ == "__main__":
     order1 = JuiceOrder('WJ','L')
